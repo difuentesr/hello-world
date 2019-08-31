@@ -6,6 +6,13 @@
 trigger:
 - master
 
+
+variables:
+  resourceGroup: 'microservices'
+  containerName: 'hello-world-pipeline-14'
+  imageName: 'devs4j/hello-world-pipeline-14'
+  dnsName: 'hello-world-pipeline-14-211207'
+
 pool:
   vmImage: 'ubuntu-latest'
 
