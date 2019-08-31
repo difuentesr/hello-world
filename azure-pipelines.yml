@@ -59,7 +59,7 @@ steps:
 
 - task: AzureCLI@1
   inputs:
-    connectedServiceNameARM: ''
+    connectedServiceNameARM: 'diconnection'
     scriptLocation: 'inlineScript'
     inlineScript: |
       az container delete --resource-group $(resourceGroup) --name $(containerName) --yes
